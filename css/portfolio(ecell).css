@@ -1,0 +1,93 @@
+html, body {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		font-family: "Open Sans", Helvetica, sans-serif;
+		background-color: #f48f42;
+	}
+
+#header{
+background-color:#43c189;
+height:50px;
+width:98.50%;
+padding:10px 10px; 
+
+}	
+
+#nav{
+padding:2px 2px; 
+margin-left:300px;
+margin-right:258px;
+box-shadow:0 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+ul{
+list-style-type:none; 
+display:block; 
+margin:0; 
+padding:0; 
+overflow:hidden;
+
+}
+
+li{
+float:left;
+}
+
+li a{
+background-color:grey; 
+color:black;
+display: block;
+text-align: center;
+padding: 25px 22px;
+text-decoration: none;
+font-family:georgia;
+}
+
+li a:hover{
+background-color:#f48f42;
+}
+
+.active{
+background-color:#ce3d21;
+color:black;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height:380px;
+  max-width: 220px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color:white;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+#card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+#card button:hover a:hover {
+  opacity: 0.7;
+}
